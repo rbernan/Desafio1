@@ -7,7 +7,7 @@ public class Ally : MonoBehaviour
     public int life = 0;
     public float vel = 0;
     public string dir;
-    public string name;
+    public string allyName;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,9 +51,9 @@ public class Ally : MonoBehaviour
         life -= amount ;
     }
        
-    public string AllyName()
+    public string NameAlly()
     {
-        name = "machete";
+        allyName = "machete";
         return name;
     }
 

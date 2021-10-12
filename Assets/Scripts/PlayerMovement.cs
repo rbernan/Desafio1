@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         transform.localScale = scale;
-        Debug.Log(allyPlayer.GetComponent<Ally>().AllyName());
+        Debug.Log(allyPlayer.GetComponent<Ally>().NameAlly());
     }
 
     // Update is called once per frame
